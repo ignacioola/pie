@@ -605,8 +605,9 @@ var svgns = "http://www.w3.org/2000/svg";
 
 var width = 70;
 var height = 70;
-var colors = ["#79b2e3", "#e57ad1", "#3F7C20", "#F06078", "#F0C000", "#903060", 
-  "#F09000", "#55BF3B", "#DF5353", "#7798BF", "#D8DA86"];
+var colors = [ "#3498db", "#1cceab", "#2ecc71", "#9b59b6", "#34495e", 
+  "#e74c3c", "#e67e22", "#f1c40f", "#d35400", "#c0392b", "#95a5a6", 
+  "#2c3e50"];
 
 /**
  * Export `Pie`
@@ -761,7 +762,7 @@ Pie.prototype.render = function() {
   // Unbind events if it was previously rendered.
   if (this.el) {
     delegate.unbind(el, 'mouseover', 
-      this.bind.onmouseover);
+      this.binds.onmouseover);
   }
 
   // Bind events
@@ -791,7 +792,7 @@ Pie.prototype.onmouseover = function(e) {
       label: d[1], 
       color: col,
       share: val * 100 / this.total
-    });
+    }, e);
 }
 
 /**

@@ -1,7 +1,7 @@
 pie
 ===
 
-SVG pie chart.
+SVG pie chart ([demo](https://ignacioola.github.io/pie/examples/basic.html))
 
 Usage
 -----
