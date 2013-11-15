@@ -2,6 +2,7 @@
   "name": "pie",
   "repo": "ignacioola/pie",
   "description": "SVG pie chart",
+  "keywords": ["svg", "pie", "chart"],
   "version": "0.1",
   "dependencies": {
     "component/emitter": "*",
