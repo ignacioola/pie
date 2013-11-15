@@ -11,7 +11,7 @@
     <script>
       pie = require("pie");
 
-      p = pie([[1, 'Label', 'black'], 2, 3, 4])
+      p = pie([[1, 'Label 1'], [2, 'Label 2']])
         .size(50, 50)
         .on('hover', function(data, i) {
           console.log(i, data);
