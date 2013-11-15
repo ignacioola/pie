@@ -1,0 +1,15 @@
+{
+  "name": "pie",
+  "description": "svg pie chart",
+  "dependencies": {
+    "component/emitter": "*",
+    "component/delegate": "*",
+    "component/bind": "*"
+  },
+  "development": {},
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}
