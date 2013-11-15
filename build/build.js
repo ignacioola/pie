@@ -760,7 +760,7 @@ Pie.prototype.render = function() {
   // Unbind events if it was previously rendered.
   if (this.el) {
     delegate.unbind(el, 'mouseover', 
-      this.bind.onmouseover);
+      this.binds.onmouseover);
   }
 
   // Bind events
