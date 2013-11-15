@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+
+  </head>
+
+  <body>
+    <div id="parent"></div>
+
+    <script src="../build/build.js"></script>
+    <script>
+      pie = require("pie");
+
+      p = pie([[1, 'Label', 'black'], 2, 3, 4])
+        .size(50, 50)
+        .on('hover', function(data, i) {
+          console.log(i, data);
+        });
+      
+
+      el = document.getElementById("parent");
+      el.appendChild(p.render());
+    </script>
+  </body>
+</html>
+
