@@ -1,6 +1,8 @@
 {
   "name": "pie",
-  "description": "svg pie chart",
+  "repo": "ignacioola/pie",
+  "description": "SVG pie chart",
+  "version": "0.1",
   "dependencies": {
     "component/emitter": "*",
     "component/delegate": "*",
@@ -11,5 +13,5 @@
   "scripts": [
     "index.js"
   ],
-  "remotes": []
+  "license": "MIT"
 }

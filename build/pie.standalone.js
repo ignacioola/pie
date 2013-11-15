@@ -791,7 +791,7 @@ Pie.prototype.onmouseover = function(e) {
       label: d[1], 
       color: col,
       share: val * 100 / this.total
-    });
+    }, e);
 }
 
 /**
