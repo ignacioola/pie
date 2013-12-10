@@ -1,7 +1,11 @@
 pie
 ===
 
-SVG pie chart ([demo](http://ignacioola.github.io/pie/examples/basic.html))
+SVG pie chart.
+
+<img src="http://ignacioola.github.io/pie/images/pie.png" />
+
+Demo [here](http://ignacioola.github.io/pie/examples/basic.html).
 
 Usage
 -----
